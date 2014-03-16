@@ -1,0 +1,150 @@
+/* Fonts */
+$font1: 'Lato'
+
+/* Screen Sizes */ 
+$screen-iphone5-min: 640px
+$screen-mobile-max: 767px
+$screen-small-min: 768px
+$screen-medium-min: 992px
+$screen-large-min: 1200px
+
+
+/* Mixins */
+@mixin set-font($family, $size, $weight, $color, $align)
+	font-family: $family, sans-serif
+	font-size: $size
+	line-height: $size + 5px
+	font-weight: $weight
+	color: $color
+	text-align: $align
+
+
+/* Parallax Effect */
+
+.page
+	height: 912px
+
+.parallax
+	position: relative
+	background-size: cover !important
+	background-attachment: fixed !important
+
+.half-top
+	height: 456
+
+.top
+	background-color: green
+	
+.bottom
+	background-color: blue
+
+.page-1
+	background-image: url(../img/bg1.jpg)
+
+.page-2
+	background-color: #202020
+
+.page-3
+	background-image: url(../img/bg2.jpg)
+
+.page-4
+	background-color: #808080
+
+/*=======================================================================*/
+/* Page Styles */
+/*=======================================================================*/
+.page-1 div.box
+	position: relative
+	margin-top: 275px
+	letter-spacing: 2px
+	background: rgba(0, 0, 0, 0.5)
+	padding: 50px 0
+
+
+/* Custom Button */
+button
+	background: rgba(0, 0, 0, 0)
+	border: 2px solid #fff
+	padding: 15px 30px
+	text-align: center
+	display: block
+	margin: 0 auto
+
+/* Very Small Mobile */
+.page-1 h1
+	@include set-font($font1, 16px, 400, #fff, center)
+	margin: 20px 5% 0 5%
+.page-1 h2
+	@include set-font($font1, 25px, 900, #fff, center)
+	margin: 10px 10% 0 10%
+.page-1 p
+	@include set-font($font1, 13px, 400, #fff, center)
+	margin: 20px 15% 0 15%
+.page-1 button
+	@include set-font($font1, 13px, 400, #fff, center)
+	margin-top: 20px
+
+/* Mobile devices (iphone5, 640px and up) */
+@media (min-width: $screen-iphone5-min)
+	.page-1 h1
+		@include set-font($font1, 20px, 400, #fff, center)
+		margin: 20px 5% 0 5%
+	.page-1 h2
+		@include set-font($font1, 35px, 900, #fff, center)
+		margin: 10px 10% 0 10%
+	.page-1 p
+		@include set-font($font1, 13px, 400, #fff, center)
+		margin: 20px 15% 0 15%
+	.page-1 button
+		@include set-font($font1, 13px, 400, #fff, center)
+		margin-top: 20px
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-small-min)
+	.page-1 h1
+		@include set-font($font1, 38px, 400, #fff, center)
+		margin: 20px 10% 0 10%
+	.page-1 h2
+		@include set-font($font1, 64px, 900, #fff, center)
+		margin: 10px 10% 0 10%
+	.page-1 p
+		@include set-font($font1, 14px, 400, #fff, center)
+		margin: 20px 15% 0 15%
+	.page-1 button
+		@include set-font($font1, 14px, 400, #fff, center)
+		margin-top: 20px
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-medium-min)
+	.page-1 h1
+		@include set-font($font1, 34px, 400, #fff, center)
+		margin: 20px 20% 0 20%
+	.page-1 h2
+		@include set-font($font1, 60px, 900, #fff, center)
+		margin: 10px 20% 0 20%
+	.page-1 p
+		@include set-font($font1, 16px, 400, #fff, center)
+		margin: 20px 30% 0 30%
+	.page-1 button
+		@include set-font($font1, 16px, 400, #fff, center)
+		margin-top: 20px
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-large-min)
+	.page-1 h1
+		@include set-font($font1, 38px, 400, #fff, center)
+		margin: 20px 20% 0 20%
+	.page-1 h2
+		@include set-font($font1, 64px, 900, #fff, center)
+		margin: 10px 25% 0 25%
+	.page-1 p
+		@include set-font($font1, 14px, 400, #fff, center)
+		margin: 20px 30% 0 30%
+	.page-1 button
+		@include set-font($font1, 14px, 400, #fff, center)
+		margin-top: 20px
+
+
+
+
+

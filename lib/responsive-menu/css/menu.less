@@ -1,0 +1,172 @@
+
+/*
+ *	Alter these to change the theme
+ *	default - red theme
+ */
+
+/* Non-Responsive colors */
+@nav-height: 60px;
+@navbg: #000;
+@opacity: 0.7;
+@theme-background-color: #C02942; /* default theme color of menu red/green/etc */
+@font-color: #909090;			  /* font color of non-responsive view */
+@hover-font-color: #fff; 		  /* hover font color of non-responsive view */
+
+/* Responsive colors */
+@theme-hover-color: #101010; 	  /* hover theme color */
+@res-font-color: #fff;			  /* font color when you hover in responsive mode */
+@res-list-border-top: #C75454;	  /* color of border separating each link in responsive mode */
+
+a:active, a:visited { 
+	border: none;
+	outline: none;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+	height: @nav-height;
+	background: rgba(0, 0, 0, @opacity);
+}
+
+nav .logo-group{
+	height: 55px;
+	line-height: 55px;
+	color: #fff;
+	padding-left: 20px;
+}
+
+nav div.container {
+	padding: 0;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: @font-color;
+	line-height: @nav-height;
+	padding: 0px 20px;
+	display: inline-block;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+nav ul li a:hover{
+	color: @hover-font-color;
+	text-decoration: none;
+	background-color: @theme-hover-color;
+}
+
+nav ul li a:active, nav ul li a:visited {
+	text-decoration: none;
+}
+
+/*
+nav a#responsive-btn{
+	display: none;
+	background-color: @theme-background-color;
+	background-image: url('../img/menu-dashes.png');
+	width: @nav-height;
+	height: @nav-height;
+	float: right;
+}
+
+nav a#responsive-btn:hover{
+	background-color: @theme-hover-color;
+}
+
+*/
+
+nav a#responsive-btn{
+	display: none;
+	background-color: @theme-background-color;
+	padding: 19px 15px;
+	width: @nav-height;
+	height: @nav-height;
+	color: #fff;
+	float: right;
+}
+
+nav a#responsive-btn div {
+	width: 25px;
+	float: left;
+	margin-right: 5px;
+}
+
+nav a#responsive-btn span.dash {
+	width: 30px;
+	height: 2px;
+	background-color: #fff;
+	display: block;
+	margin-bottom: 6px;
+}
+
+a#responsive-btn:hover{
+	opacity: 0.8;
+}
+
+
+/* Moblie Settings */
+@media (max-width: 768px) {
+
+	nav {
+		display: block;
+		background: rgba(0, 0, 0, @opacity);
+		height: auto;
+	}
+
+	nav a#responsive-btn {
+		display: block;
+	}
+
+	nav ul {
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+
+	nav ul li {
+		width: 100%;
+		position: relative;
+		border-bottom: 1px solid #808080;
+	}
+
+	nav ul li:hover {
+		background-color: @theme-hover-color;
+	}
+
+	nav ul li a {
+		color: @res-font-color;
+		line-height: @nav-height;
+		padding: 0px 20px;
+		width: 100%;
+	}
+
+	nav ul li a:hover {
+		color: @res-font-color;
+	}
+}
+
+@media (min-width: 768px) {
+
+	nav {
+		display: block;
+	}
+
+}
