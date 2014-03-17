@@ -88,10 +88,13 @@ button {
   padding: 15px 30px;
   text-align: center;
   display: block;
-  margin: 0 auto; }
-  button:hover {
-    background-color: white;
-    color: black !important; }
+  margin: 0 auto; 
+}
+
+button:hover {
+  background-color: white;
+  color: black !important; 
+}
 
 /*======================================================================= */
 /*----------------------------------------------------------------------- */
@@ -154,7 +157,7 @@ section#fader ul#slides li p {
 /*======================================================================= */
 
 /*------------------------- Page 2 -------------------------*/
-section.page-2 {
+section.home.page-2 {
 	min-height: 400px;
 	background-color: #7ac143; 
 	height: auto;
@@ -207,19 +210,26 @@ section.home.page-2 p {
 }
 
 /*------------------------- Page 3 -------------------------*/
-section.page-3 {
+section.home.page-3 {
 	background-image: none;
 	background-color: #fff;
 	min-height: 400px;
 	height: auto;
 }
 
-section.page-3 h1 {
-	color: #000;
+/* Temporary Slider */
+
+section.home.page-3 .row{
+	margin: 100px 0
+}
+
+section.home.page-3 img{
+	width: 100%;
+	margin-bottom: 20px;
 }
 
 /*------------------------- Page 4 -------------------------*/
-section.page-4 {
+section.home.page-4 {
 	background-image: url(../img/bg2.jpg);
 	min-height: 400px;
 	height: auto;
@@ -231,7 +241,8 @@ section.home.page-4 h1 {
   line-height: 50px;
   font-weight: 400;
   color: white;
-  text-align: left; }
+  text-align: left; 
+}
 
 section.home.page-4 p {
   font-family: "Lato", sans-serif;
@@ -239,16 +250,19 @@ section.home.page-4 p {
   line-height: 21px;
   font-weight: 300;
   color: white;
-  text-align: left; }
+  text-align: left; 
+}
 
 section.home.page-4 h1, section.home.page-4 p {
-  margin-bottom: 20px; }
+  margin-bottom: 20px; 
+}
 
 section.home.page-4 {
-  padding: 75px 0; }
+  padding: 75px 0; 
+}
 
 /*------------------------- Page 5 -------------------------*/
-section.page-5 {
+section.home.page-5 {
 	background-image: none;
 	background-color: #fff;
 	min-height: 400px;
@@ -261,7 +275,8 @@ section.home.page-5 h1 {
   line-height: 29px;
   font-weight: 400;
   color: black;
-  text-align: left; }
+  text-align: left; 
+}
 
 section.home.page-5 p {
   font-family: "Lato", sans-serif;
@@ -269,27 +284,34 @@ section.home.page-5 p {
   line-height: 19px;
   font-weight: 300;
   color: black;
-  text-align: left; }
+  text-align: left; 
+}
 
 /* Mobile View */
 @media (max-width: 768px) {
-  section.home.page-5 h1, section.home.page-5 p {
-    text-align: center; }
+	section.home.page-5 h1, section.home.page-5 p {
+	  text-align: center; 
+	}
 
-  section.home.page-5 p {
-    margin: 10px 5% 0 5%; } }
+	section.home.page-5 p {
+	  margin: 10px 5% 0 5%; 
+	} 
+}
 section.home.page-5 {
-  background-color: white; }
+  background-color: white; 
+}
 
 section.home.page-5 img {
   display: block;
-  margin: 0 auto 25px auto; }
+  margin: 0 auto 25px auto; 
+}
 
 section.home.page-5 {
-  padding: 75px 0; }
+  padding: 75px 0; 
+}
 
 /*------------------------- Page 6 -------------------------*/
-section.page-6{
+section.home.page-6{
 	background-color: #24cddc;
 	min-height: 400px;
 	height: auto;
@@ -297,10 +319,12 @@ section.page-6{
 }
 
 section.home.page-6 {
-  background-color: #24cddc; }
+  background-color: #24cddc; 
+}
 
 section.home.page-6 .top {
-  padding: 100px 0; }
+  padding: 100px 0; 
+}
 
 section.home.page-6 .top h1 {
   font-family: "Lato", sans-serif;
@@ -309,7 +333,8 @@ section.home.page-6 .top h1 {
   font-weight: 400;
   color: white;
   text-align: center;
-  margin-bottom: 70px; }
+  margin-bottom: 70px; 
+}
 
 section.home.page-6 .top button {
   font-family: "Lato", sans-serif;
@@ -317,7 +342,8 @@ section.home.page-6 .top button {
   line-height: 21px;
   font-weight: 300;
   color: white;
-  text-align: center; }
+  text-align: center; 
+}
 
 /*------------------------- Footer -------------------------*/
 footer {
@@ -337,7 +363,8 @@ footer i{
 }
 
 footer div.right {
-  text-align: right; }
+  text-align: right; 
+}
 
 /* Mobile View */
 @media (max-width: 768px) {
