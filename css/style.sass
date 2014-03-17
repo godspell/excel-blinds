@@ -66,12 +66,12 @@ $sky_blue: #24CDDC
 #home .page-4
 	background-color: #808080
 
-section.page-1
-	height: 912px
-
 /*=======================================================================*/
 /* Page 1 */
 /*=======================================================================*/
+
+#home section.page-1
+	height: 912px
 
 #home .page-1 div.box
 	position: relative
@@ -289,6 +289,15 @@ footer p.right
 #products
 	color: #fff
 
+#products .page-1 h1
+	@include set-font($font1, 25px, 400, #fff, center)
+#products .page-1 p
+	@include set-font($font1, 16px, 200, #fff, center)
+
+#products .page-1 img
+	display: block 
+	margin: 0 auto
+
 #products .box
 	height: 260px
 	margin-top: 100px
@@ -297,6 +306,10 @@ footer p.right
 
 #products .page-1
 	background-image: url(../img/bg2.jpg)
+	padding-bottom: 50px
+
+#products .items div
+	margin-top: 50px
 
 
 

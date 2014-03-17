@@ -40,12 +40,12 @@ h1, h2, h3, h4, h5, h6, p {
 #home .page-4 {
   background-color: gray; }
 
-section.page-1 {
-  height: 912px; }
-
 /*======================================================================= */
 /* Page 1 */
 /*======================================================================= */
+#home section.page-1 {
+  height: 912px; }
+
 #home .page-1 div.box {
   position: relative;
   margin-top: 275px;
@@ -412,6 +412,26 @@ footer p.right {
 #products {
   color: white; }
 
+#products .page-1 h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  color: white;
+  text-align: center; }
+
+#products .page-1 p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 200;
+  color: white;
+  text-align: center; }
+
+#products .page-1 img {
+  display: block;
+  margin: 0 auto; }
+
 #products .box {
   height: 260px;
   margin-top: 100px;
@@ -424,4 +444,8 @@ footer p.right {
   text-align: left; }
 
 #products .page-1 {
-  background-image: url(../img/bg2.jpg); }
+  background-image: url(../img/bg2.jpg);
+  padding-bottom: 50px; }
+
+#products .items div {
+  margin-top: 50px; }
