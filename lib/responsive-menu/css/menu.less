@@ -6,19 +6,20 @@
 
 /* Non-Responsive colors */
 @nav-height: 60px;
-@navbg: #fff;
+@navbg: #000;
+@opacity: 0.7;
 @theme-background-color: #C02942; /* default theme color of menu red/green/etc */
-@font-color: #45473D;			  /* font color of non-responsive view */
+@font-color: #909090;			  /* font color of non-responsive view */
 @hover-font-color: #fff; 		  /* hover font color of non-responsive view */
 
 /* Responsive colors */
-@theme-hover-color: #D33450; 	  /* hover theme color */
+@theme-hover-color: #101010; 	  /* hover theme color */
 @res-font-color: #fff;			  /* font color when you hover in responsive mode */
 @res-list-border-top: #C75454;	  /* color of border separating each link in responsive mode */
 
 a:active, a:visited { 
-    border: none;
-    outline: none;
+	border: none;
+	outline: none;
 }
 
 nav{
@@ -26,8 +27,16 @@ nav{
 	top: 0;
 	right: 0;
 	width: 100%;
+	z-index: 1;
 	height: @nav-height;
-	background-color: @navbg;
+	background: rgba(0, 0, 0, @opacity);
+}
+
+nav .logo-group{
+	height: 55px;
+	line-height: 55px;
+	color: #fff;
+	padding-left: 20px;
 }
 
 nav div.container {
@@ -112,11 +121,13 @@ a#responsive-btn:hover{
 	opacity: 0.8;
 }
 
+
+/* Moblie Settings */
 @media (max-width: 768px) {
 
 	nav {
 		display: block;
-		background-color: @navbg;
+		background: rgba(0, 0, 0, @opacity);
 		height: auto;
 	}
 
@@ -133,8 +144,7 @@ a#responsive-btn:hover{
 	nav ul li {
 		width: 100%;
 		position: relative;
-		border-top: 1px solid @res-list-border-top;
-		background-color: @theme-background-color;
+		border-bottom: 1px solid #808080;
 	}
 
 	nav ul li:hover {

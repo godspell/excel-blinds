@@ -19,6 +19,7 @@ $screen-large-min: 1200px
 
 /* Colors */
 $light_green: #7AC143
+$sky_blue: #24CDDC
 
 
 /* Mixins */
@@ -190,6 +191,7 @@ button
 	@include set-font($font1, 25px, 700, #fff, center)
 .page-2 p
 	@include set-font($font1, 14px, 300, #fff, center)
+	/* Mobile View */
 	@media (max-width: $screen-small-min)
 		margin: 10px 25% 0 25%
 
@@ -210,6 +212,7 @@ button
 .page-3 .bottom p
 	@include set-font($font1, 14px, 300, #000, left)
 
+/* Mobile View */
 @media (max-width: $screen-small-min)
 	.page-3 .bottom h1, .page-3 .bottom p
 		text-align: center
@@ -227,11 +230,49 @@ button
 
 .page-3 .bottom img 
 	display: block
-	margin: 0 auto
+	margin: 0 auto 25px auto
+
+.page-3 .bottom
+	padding: 75px 0
 
 
+/*=======================================================================*/
+/* Page 4 */
+/*=======================================================================*/
+
+.page-4
+	background-color: $sky_blue
+
+.page-4 .top
+	padding: 100px 0
+
+.page-4 .top h1
+	@include set-font($font1, 45px, 400, #fff, center)
+	margin-bottom: 70px
+.page-4 .top button
+	@include set-font($font1, 16px, 300, #fff, center)
 
 
+/*=======================================================================*/
+/* Footer */
+/*=======================================================================*/
+
+footer
+	min-height: 85px
+	background-color: #000
+	color: #808080
+
+footer p
+	line-height: 85px
+
+footer p.right
+	text-align: right
+
+/* Mobile View */
+@media (max-width: $screen-small-min)
+	footer p.right
+		text-align: left
+		line-height: 20px
 
 
 
