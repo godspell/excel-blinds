@@ -291,12 +291,16 @@ footer p.right
 
 #products .page-1 h1
 	@include set-font($font1, 25px, 400, #fff, center)
+	margin-bottom: 5px
 #products .page-1 p
 	@include set-font($font1, 16px, 200, #fff, center)
 
 #products .page-1 img
 	display: block 
-	margin: 0 auto
+	margin: 0 auto 15px auto
+	&:hover
+		opacity: 0.9
+		cursor: pointer
 
 #products .box
 	height: 260px
