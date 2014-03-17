@@ -166,7 +166,7 @@ button
 /*=======================================================================*/
 
 .page-2 .card
-	padding: 40px 10px
+	padding: 50px 10px
 
 .page-2 .top
 	background-color: $light_green
@@ -174,7 +174,7 @@ button
 .page-2 .bottom
 	background-color: #fff
 
-.page-2 h1, h2, p 
+.page-2 h1, .page-2 h2, .page-2 p 
 	text-align: center
 
 .page-2 img 
@@ -200,13 +200,36 @@ button
 /* Page 3 */
 /*=======================================================================*/
 
-.page-3 h1
+/* Fonts */
+.page-3 .top h1
 	@include set-font($font1, 45px, 400, #fff, left)
-.page-3 p
+.page-3 .top p
 	@include set-font($font1, 16px, 300, #fff, left)
+.page-3 .bottom h1
+	@include set-font($font1, 24px, 400, #000, left)
+.page-3 .bottom p
+	@include set-font($font1, 14px, 300, #000, left)
+
+@media (max-width: $screen-small-min)
+	.page-3 .bottom h1, .page-3 .bottom p
+		text-align: center
+	.page-3 .bottom p 
+		margin: 10px 5% 0 5%
+
+.page-3 h1, .page-3 p 
+	margin-bottom: 20px
+
+.page-3 .top
+	padding: 75px 0
 
 .page-3 .bottom
 	background-color: #fff
+
+.page-3 .bottom img 
+	display: block
+	margin: 0 auto
+
+
 
 
 

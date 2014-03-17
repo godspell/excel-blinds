@@ -249,7 +249,7 @@ button {
 /* Page 2 */
 /*======================================================================= */
 .page-2 .card {
-  padding: 40px 10px; }
+  padding: 50px 10px; }
 
 .page-2 .top {
   background-color: #7ac143; }
@@ -257,7 +257,7 @@ button {
 .page-2 .bottom {
   background-color: white; }
 
-.page-2 h1, h2, p {
+.page-2 h1, .page-2 h2, .page-2 p {
   text-align: center; }
 
 .page-2 img {
@@ -297,7 +297,8 @@ button {
 /*======================================================================= */
 /* Page 3 */
 /*======================================================================= */
-.page-3 h1 {
+/* Fonts */
+.page-3 .top h1 {
   font-family: "Lato", sans-serif;
   font-size: 45px;
   line-height: 50px;
@@ -305,7 +306,7 @@ button {
   color: white;
   text-align: left; }
 
-.page-3 p {
+.page-3 .top p {
   font-family: "Lato", sans-serif;
   font-size: 16px;
   line-height: 21px;
@@ -313,5 +314,37 @@ button {
   color: white;
   text-align: left; }
 
+.page-3 .bottom h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  color: black;
+  text-align: left; }
+
+.page-3 .bottom p {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: 300;
+  color: black;
+  text-align: left; }
+
+@media (max-width: 768px) {
+  .page-3 .bottom h1, .page-3 .bottom p {
+    text-align: center; }
+
+  .page-3 .bottom p {
+    margin: 10px 5% 0 5%; } }
+.page-3 h1, .page-3 p {
+  margin-bottom: 20px; }
+
+.page-3 .top {
+  padding: 75px 0; }
+
 .page-3 .bottom {
   background-color: white; }
+
+.page-3 .bottom img {
+  display: block;
+  margin: 0 auto; }
