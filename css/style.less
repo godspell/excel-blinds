@@ -86,6 +86,10 @@ nav {
 	opacity: 0.9;
 }
 
+.page {
+	min-height: 750px !important;
+}
+
 // /* Custom Button */
 // button {
 //   background: rgba(0, 0, 0, 0);
@@ -207,12 +211,6 @@ section.page-2 p {
   font-weight: 300;
   color: white;
   text-align: center;
-  /* Mobile View */ 
-}
-@media (max-width: 768px) {
-	section.page-2 p {
-	  margin: 10px 25% 0 25%; 
-	} 
 }
 
 /*------------------------- Page 3 -------------------------*/
@@ -353,6 +351,23 @@ footer div.right {
 }
 
 @media (max-width: 768px) {
+
+	/* Temporary slider */
+	section.page-3 img{
+		width: 32%;
+		margin-right: 1%;
+		margin-bottom: 20px;
+		float: left;
+	}
+	/* End Temporary slider */
+
+	section#fader ul#slides li {
+		height: 470px;
+	}
+
+	section.page-2 p {
+	  margin: 10px 10% 0 10%; 
+	} 
 
 	footer div.right {
 		text-align: left;
