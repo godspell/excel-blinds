@@ -17,15 +17,17 @@ h1, h2, h3, h4, h5, h6, p {
   background-size: cover !important;
   background-attachment: fixed !important; }
 
-section.page-1 {
-  height: 912px; }
-
 .page {
   min-height: 800px; }
 
 .half-page {
   min-height: 400px; }
 
+/*======================================================================= */
+/*----------------------------------------------------------------------- */
+/* Home Page */
+/*----------------------------------------------------------------------- */
+/*======================================================================= */
 #home .page-1 {
   background-image: url(../img/bg1.jpg); }
 
@@ -37,6 +39,9 @@ section.page-1 {
 
 #home .page-4 {
   background-color: gray; }
+
+section.page-1 {
+  height: 912px; }
 
 /*======================================================================= */
 /* Page 1 */
@@ -399,3 +404,24 @@ footer p.right {
   footer p.right {
     text-align: left;
     line-height: 20px; } }
+/*======================================================================= */
+/*----------------------------------------------------------------------- */
+/* Products Page */
+/*----------------------------------------------------------------------- */
+/*======================================================================= */
+#products {
+  color: white; }
+
+#products .box {
+  height: 260px;
+  margin-top: 100px;
+  background: rgba(0, 0, 0, 0.5);
+  font-family: "Lato", sans-serif;
+  font-size: 48px;
+  line-height: 53px;
+  font-weight: 300;
+  color: white;
+  text-align: left; }
+
+#products .page-1 {
+  background-image: url(../img/bg2.jpg); }
