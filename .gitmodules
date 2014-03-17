@@ -1,0 +1,12 @@
+[submodule "lib/bootstrap"]
+	path = lib/bootstrap
+	url = https://github.com/twbs/bootstrap.git
+[submodule "lib/responsive-menu"]
+	path = lib/responsive-menu
+	url = https://github.com/holiday/responsive-menu.git
+[submodule "lib/page-reveal-theme"]
+	path = lib/page-reveal-theme
+	url = https://github.com/holiday/page-reveal-theme.git
+[submodule "lib/responsive-fader"]
+	path = lib/responsive-fader
+	url = https://github.com/holiday/responsive-fader.git

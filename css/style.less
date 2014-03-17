@@ -1,0 +1,101 @@
+@import url("/excel-blinds/lib/responsive-menu/css/menu.less");
+@import url("/excel-blinds/lib/responsive-fader/css/style.css");
+@import url("/excel-blinds/lib/page-reveal-theme/css/style.css");
+
+/*======================================================================= */
+/*----------------------------------------------------------------------- */
+/* Responsive Menu Override */
+/*----------------------------------------------------------------------- */
+/*======================================================================= */
+
+/* Non-Responsive colors */
+@nav-height: 82px;
+@navbg: #222222;
+@theme-background-color: #000000; /* default theme color of menu red/green/etc */
+@font-color: #B0B0B0;			  /* font color of non-responsive view */
+@hover-font-color: #fff; 		  /* hover font color of non-responsive view */
+
+/* Responsive colors */
+@theme-hover-color: #000000; 	  /* hover theme color */
+@res-font-color: #fff;			  /* font color when you hover in responsive mode */
+@res-list-border-top: #C75454;	  /* color of border separating each link in responsive mode */
+
+nav {
+	z-index: 3;
+	opacity: 0.9;
+}
+
+
+/*======================================================================= */
+/*----------------------------------------------------------------------- */
+/* Home Page */
+/*----------------------------------------------------------------------- */
+/*======================================================================= */
+/*======================================================================= */
+/* Fader Overrides */
+/*======================================================================= */
+section#fader ul#slides li {
+	background-color: #222222;
+	opacity: 0.9;
+	margin: 0 10px 0 1 0px;
+	height: 420px;
+	margin-top: 275px;
+}
+
+section#fader ul#background-images li.slide-1-bg {
+	background-image: url(../img/bg1.jpg);
+}
+
+section#fader ul#background-images li.slide-2-bg {
+	background-image: url(../img/bg2.jpg);
+}
+
+
+section#fader ul#background-images li.slide-3-bg {
+	background-image: url(../img/bg3.jpg);
+}
+
+/*======================================================================= */
+/* Page 1 */
+/*======================================================================= */
+
+section.page-2 {
+	background-color: #7ac143;
+	height: 400px;
+	color: #fff;
+}
+
+section.page-3 {
+	background-image: none;
+	background-color: #fff;
+	height: 400px;
+}
+
+section.page-3 h1 {
+	color: #000;
+}
+
+section.page-4 {
+	background-image: url(../img/bg2.jpg);
+	height: 400px;
+}
+
+
+section.page-5 {
+	background-image: none;
+	background-color: #fff;
+	height: 400px;
+}
+
+section.page-6{
+	background-color: #24cddc;
+	height: 400px;
+	color: #fff;
+}
+
+footer {
+	background-color: #222222;
+	height: 85px;
+	line-height: 85px;
+	color: #B0B0B0;
+}
