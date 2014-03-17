@@ -20,6 +20,8 @@ section.products-head, section.products {
 section.products {
   color: #555555;
   text-align: center; }
+  section.products .container {
+    margin-top: 75px; }
   section.products h1 {
     font-size: 30px;
     line-height: 30px;
@@ -28,13 +30,11 @@ section.products {
     font-size: 16px;
     line-height: 20px;
     font-weight: 200; }
-  section.products .row {
-    padding-top: 75px; }
-    section.products .row div {
-      margin-bottom: 75px; }
-    section.products .row img {
-      width: 100%;
-      margin-bottom: 20px; }
+  section.products .row div {
+    margin-bottom: 75px; }
+  section.products .row img {
+    width: 100%;
+    margin-bottom: 20px; }
 
 section.products-head.page, section.products.page {
   height: auto; }
@@ -61,3 +61,7 @@ section.products-info .container h1 {
   color: white;
   text-align: center;
   margin-bottom: 70px; }
+
+/* Spacer */
+section.products .spacer {
+  background-color: #555555; }
