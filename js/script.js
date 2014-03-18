@@ -30,6 +30,6 @@ $(function(){
 });
 
 window.onload = function(){
-	var fader = new Fader('#slides li', '#background-images li', 10000);
+	var fader = new Fader('#slides li', '#background-images li', 15000);
 	fader.start();
 };
