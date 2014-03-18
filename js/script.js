@@ -2,8 +2,12 @@ $(function(){
 
 	$("#fader").css('height', $(window).height());
 
+	//smooth scrolling
+	$("html").niceScroll();
+
 });
 
-$( window ).resize(function() {
-  $("#fader").css('height', $(window).height());
-});
+window.onload = function(){
+	//var fader = new Fader('#slides li', '#background-images li', 5000);
+	//fader.start();
+};
