@@ -174,13 +174,12 @@ section#fader ul#slides li p {
 
 /*------------------------- Page 2 -------------------------*/
 section.process {
-	min-height: 400px;
+	height: 400px;
 	background-color: #7ac143; 
-	height: auto;
 	color: #fff;
 }
 section.process {
-  padding: 20px 10px 50px 10px;
+  padding: 0 10px 50px 10px;
 }
 
 section.process h1, section.process h2, section.process p {
@@ -189,7 +188,7 @@ section.process h1, section.process h2, section.process p {
 
 section.process img {
   display: block;
-  margin: 30px auto 30px auto; 
+  margin: 25px auto 30px auto; 
 }
 
 section.process h1 {
@@ -212,7 +211,7 @@ section.process h2 {
 
 section.process p {
   font-family: "Lato", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 19px;
   font-weight: 300;
   color: white;
@@ -230,7 +229,7 @@ section.slider {
 /* Temporary Slider */
 
 section.slider .row{
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
 section.slider img{
@@ -255,11 +254,13 @@ section.about h1 {
 
 section.about p {
   font-family: "Lato", sans-serif;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: 300;
   color: white;
-  text-align: left; }
+  text-align: left; 
+  letter-spacing: 1px;
+}
 
 section.about h1, section.about p {
   margin-bottom: 20px; }
@@ -284,12 +285,14 @@ section.testimonials h1 {
   text-align: left; }
 
 section.testimonials p {
-  font-family: "Lato", sans-serif;
-  font-size: 14px;
-  line-height: 19px;
-  font-weight: 300;
-  color: black;
-  text-align: left; }
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: 300;
+	color: black;
+	text-align: left; 
+	letter-spacing: 1px;
+}
 
 section.testimonials {
   background-color: white; }
@@ -341,11 +344,11 @@ footer {
 footer p {
 	font-size: 16px;
 	line-height: 20px;
-	padding-top: 25px;
+	padding-top: 20px;
 }
 
 footer i{
-	padding-top: 30px;
+	padding-top: 25px;
 	margin-right: 15px;
 	&:hover{
 		color:#fff;
@@ -385,16 +388,29 @@ footer div.right {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 	.divider {
 		background-size: auto auto;
 		background-attachment: scroll;
 	}
 
+	section.process {
+		min-height: 400px;
+	}
+
 	section.process p {
 	  margin: 10px 10% 0 10%; 
 	} 
+
+	section.process .card {
+		padding-bottom: 25px;
+		border-bottom: 1px solid #96CD69; 
+	}
+
+	section.process .card:last-child {
+		border: none;
+	}
 
 	footer div.right {
 		text-align: left;
