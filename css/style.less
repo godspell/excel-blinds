@@ -107,13 +107,17 @@ nav {
 
 section#fader ul#slides li {
 	opacity: 0.7;
-	margin: 0 10px 0 10px;
-	height: 420px;
 	padding: 0;
+	width: 100%;
 	text-align: center;
 }
 
-section#fader ul#slides li.slide-3 .vcenter{
+section#fader ul#slides li > .vcenter {
+	width: 100%;
+}
+
+section#fader ul#slides li #inner{
+	padding: 20px;
 	background-color: #81abaa;
 }
 
@@ -350,6 +354,34 @@ footer div.right {
   text-align: right; 
 }
 
+@media (max-width: 480px) and (max-height:320px) {
+	section#fader ul#slides li h1{
+		display: none;
+	}
+
+	section#fader ul#slides li h3{
+		display: none;
+	}
+
+	section#fader ul#slides li button{
+		display: none;
+	}
+
+	section#fader ul#slides li #inner{
+		padding: 0 !important;
+	}
+}
+
+@media (max-width: 480px) and (max-height:700px){
+	section#fader ul#slides li h1{
+		display: none;
+	}
+
+	section#fader ul#slides li #inner{
+		padding: 10px;
+	}
+}
+
 @media (max-width: 768px) {
 
 	.divider {
@@ -372,7 +404,6 @@ footer div.right {
 		margin-top: 0;
 	}
 
-
 	section#fader ul#slides li span.spacer{
 		padding: 0;
 		margin: 0;
@@ -392,6 +423,10 @@ footer div.right {
 
 	section#fader ul#slides li {
 		opacity: 0.7;
+	}
+
+	section#fader ul#slides li #inner{
+		padding: 20px;
 	}
 
 	section#fader ul#slides li p {

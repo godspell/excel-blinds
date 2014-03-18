@@ -7,9 +7,9 @@ $(function(){
 
 	function valign(el, min_height) {
 		if(min_height) {
-			$(el).css('margin-top', (min_height/2) - ($(el).height()/2) + 'px');
+			$(el).css('margin-top', (min_height/2) - ($(el).height()/2) + 30 + 'px');
 		}else{
-			$(el).css('margin-top', ($(window).height()/2) - ($(el).height()/2) + 'px');
+			$(el).css('margin-top', ($(window).height()/2) - ($(el).height()/2) + 30 + 'px');
 		}
 		
 	}
