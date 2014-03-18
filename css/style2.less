@@ -93,6 +93,9 @@ nav {
 	opacity: 0.9;
 }
 
+.page-1 {
+	min-height: 750px !important;
+}
 
 /*======================================================================= */
 /*----------------------------------------------------------------------- */
@@ -103,7 +106,6 @@ nav {
 /*======================================================================= */
 /* Fader Overrides */
 /*======================================================================= */
-
 section#fader ul#slides li {
 	opacity: 0.7;
 	margin: 0 10px 0 10px;
@@ -228,12 +230,12 @@ section.slider {
 /* Temporary Slider */
 
 section.slider .row{
-	margin-top: 50px;
+	margin: 100px 0
 }
 
 section.slider img{
 	width: 100%;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 /*------------------------- Page 4 -------------------------*/
@@ -297,8 +299,7 @@ section.testimonials img {
   margin: 0 auto 25px auto; }
 
 section.testimonials {
-  padding: 100px 0; 
-}
+  padding: 75px 0; }
 
 /*------------------------- Page 6 -------------------------*/
 section.page-6{
@@ -315,8 +316,7 @@ section.page-6 {
 }
 
 section.page-6 .container {
-  padding: 100px 0; 
-}
+  padding: 100px 0; }
 
 section.page-6 .container h1 {
   font-family: "Lato", sans-serif;
@@ -357,9 +357,8 @@ footer div.right {
 
 @media (max-width: 768px) {
 
-	.divider {
-		background-size: auto auto;
-		background-attachment: scroll;
+	section#fader ul#slides li {
+		height: 470px;
 	}
 
 	section.process p {
@@ -377,32 +376,27 @@ footer div.right {
 		margin-top: 0;
 	}
 
-	section#fader ul#slides li span.spacer{
-		margin-bottom: 10px;
-	}
-
 	section#fader ul#slides li h3{
-		font-size: 16px;
-		margin: 0;
-		margin-bottom:5px;
-		display: none;
+		font-size: 18px;
 	}
 
 	section#fader ul#slides li h1{
-		font-size: 44px;
-		margin:0;
-		margin-bottom:3px;
-		display: none;
+		font-size: 54px;
 	}
 
 	section#fader ul#slides li {
-		padding-top: 18px;
-		height: 200px;
+		padding: 0;
+		padding-top: 40px;
+		margin: 0;
+		margin-top: 200px;
+	}
+
+	section#fader ul#slides li {
+		
 	}
 
 	section#fader ul#slides li p {
-		font-size: 12px;
-		margin: 0 5px;
+		margin: 0 20px;
 	}
 
 
@@ -416,6 +410,9 @@ footer div.right {
 }
 
 @media (min-width: 768px ) and (max-width: 992px) {
+	section#fader ul#slides li {
+		margin-top: 200px;
+	}
 
 	section#fader ul#slides li p {
 		margin: 0 50px 0 50px;
