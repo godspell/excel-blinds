@@ -104,16 +104,16 @@ nav {
 /* Fader Overrides */
 /*======================================================================= */
 
+
 section#fader ul#slides li {
 	opacity: 0.7;
 	margin: 0 10px 0 10px;
 	height: 420px;
-	margin-top: 220px;
 	padding: 0;
 	text-align: center;
 }
 
-section#fader ul#slides li.slide-3 {
+section#fader ul#slides li.slide-3 .vcenter{
 	background-color: #81abaa;
 }
 
@@ -138,10 +138,6 @@ section#fader ul#background-images li.slide-3-bg {
 	background-image: url(../img/bg3.jpg);
 }
 
-section#fader ul#slides li {
-	padding-top: 70px; 
-}
-
 section#fader ul#slides li span.spacer{
 	margin-bottom: 15px;
 }
@@ -156,14 +152,13 @@ section#fader ul#slides li h1{
 	font-size: 74px;
 	font-weight: 900;
 	letter-spacing: 4px;
-	margin-bottom: 15px;
+
 }
 
 section#fader ul#slides li p {
 	font-size: 16px;
 	letter-spacing: 2px;
 	margin: 0 250px 0 250px;
-	padding: 0;
 }
 
 /*======================================================================= */
@@ -377,34 +372,32 @@ footer div.right {
 		margin-top: 0;
 	}
 
+
 	section#fader ul#slides li span.spacer{
-		margin-bottom: 10px;
+		padding: 0;
+		margin: 0;
 	}
 
 	section#fader ul#slides li h3{
 		font-size: 16px;
 		margin: 0;
 		margin-bottom:5px;
-		display: none;
 	}
 
 	section#fader ul#slides li h1{
 		font-size: 44px;
-		margin:0;
-		margin-bottom:3px;
-		display: none;
+		padding: 0;
+		margin: 0;
 	}
 
 	section#fader ul#slides li {
-		padding-top: 18px;
-		height: 200px;
+		opacity: 0.7;
 	}
 
 	section#fader ul#slides li p {
-		font-size: 12px;
-		margin: 0 5px;
+		margin: 0 10px;
 	}
-
+	
 
 	section.testimonials h1, section.testimonials p {
 		text-align: center; 
@@ -416,6 +409,7 @@ footer div.right {
 }
 
 @media (min-width: 768px ) and (max-width: 992px) {
+
 
 	section#fader ul#slides li p {
 		margin: 0 50px 0 50px;
