@@ -31,6 +31,6 @@ $(function(){
 });
 
 window.onload = function(){
-	//var fader = new Fader('#slides li', '#background-images li', 10000);
-	//fader.start();
+	var fader = new Fader('#slides li', '#background-images li', 10000);
+	fader.start();
 };
