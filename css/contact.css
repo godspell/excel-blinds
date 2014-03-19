@@ -1,7 +1,9 @@
+section.contact h1 {
+    margin-top: 0;
+}
 section.contact form {
     margin-top: 50px;
 }
-
 section.contact input, section.contact textarea {
     display: block;
     text-align: center;
@@ -9,30 +11,25 @@ section.contact input, section.contact textarea {
     border: 2px solid gray;
     width: 100%;
 }
-
 section.contact input[type='submit'] {
     background-color: white;
     font-weight: 600;
     font-size: 20px;
     letter-spacing: 3px;
 }
-
 section.contact input[type='submit']:hover {
     background-color: gray;
     color: white;
     cursor: pointer;
 }
-
 section.contact input {
     min-height: 55px;
 }
-
 section.contact textarea {
     min-height: 150px;
     padding: 15px 0;
     resize: none;
 }
-
 section.contact textarea:focus, section.contact input:focus{
     outline: none;
 }
