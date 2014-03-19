@@ -1,6 +1,6 @@
 section.products-head {
-  min-height: 200px;
-  background-image: url(../img/bg2.jpg); }
+  min-height: 250px;
+  background-image: url(../img/wood_2.jpg); }
   section.products-head h1 {
     padding-top: 95px; }
 
@@ -71,3 +71,11 @@ section.products-info .container h1 {
 /* Spacer */
 section.products .spacer {
   background-color: #555555; }
+
+@media (max-width: 480px) {
+
+    section.product-head h1 {
+        padding-top: 80px;
+        font-size: 45px;
+    }
+}
