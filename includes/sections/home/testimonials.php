@@ -22,7 +22,7 @@
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
 					</div>
 					<div class="col-sm-9">
-						<h1>Shutters on whole house</h1>
+						<h1>Blinds Installation</h1>
 						<h2>Jane Doe (Mississauga, ON)</h2>
 						<hr>
 						<blockquote>I have lived in my home for 12 years and it took that long to decide on what window coverings to place in my...</blockquote>
