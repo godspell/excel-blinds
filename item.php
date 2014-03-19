@@ -26,8 +26,8 @@
 
 				</div>
 				<div class="col-sm-6 item-images">
-					<a href="img/slider1.png" data-lightbox="image-1" ><img src="img/slider1.png" ></a>
-					<a href="img/slider2.png" data-lightbox="image-2" ><img src="img/slider2.png" ></a>
+					<a href="img/slider1.png" data-lightbox="product-image" ><img src="img/slider1.png" ></a>
+					<a href="img/slider2.png" data-lightbox="product-image" ><img src="img/slider2.png" ></a>
 				</div>
 			</div>
 		</div>

@@ -34,6 +34,11 @@ section.products {
     text-align: center;
 }
 
+section.products a {
+    text-decoration: none;
+    color: #555;
+}
+
 section.products .container {
     margin-top: 75px;
 }
@@ -52,6 +57,11 @@ section.products p {
 
 section.products .row div {
     margin-bottom: 75px;
+}
+
+section.products .row div:hover {
+    opacity: 0.9;
+    cursor: pointer;
 }
 
 section.products .row img {
