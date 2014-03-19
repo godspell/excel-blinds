@@ -1,64 +1,101 @@
 section.contact-head {
-  min-height: 200px;
-  background-image: url(../img/bg2.jpg);
-  color: white; }
-  section.contact-head h1 {
-    padding-top: 95px; }
+    min-height: 250px;
+    background-image: url(../img/wood_2.jpg);
+    color: white;
+}
+
+section.contact-head h1 {
+    padding-top: 95px;
+}
 
 section.contact-head {
-  font-family: "Lato", sans-serif; }
-  section.contact-head h1 {
+    font-family: "Lato", sans-serif;
+}
+
+section.contact-head h1 {
     font-size: 65px;
     line-height: 45px;
     font-weight: 300;
-    margin-bottom: 5px; }
-  section.contact-head p {
+    margin-bottom: 5px;
+}
+
+section.contact-head p {
     font-size: 20px;
     line-height: 27px;
-    font-weight: 300; }
+    font-weight: 300;
+}
 
 section.contact-head.page, section.contact.page {
-  height: auto; }
+    height: auto;
+}
 
 section.contact {
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  color: #555555; }
-  section.contact h1 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #555555;
+}
+
+section.contact h1 {
     font-size: 40px;
     line-height: 40px;
-    font-weight: 300; }
-  section.contact p {
+    font-weight: 300;
+}
+
+section.contact p {
     font-size: 20px;
     line-height: 20px;
     font-weight: 300;
-    margin-bottom: 10px; }
-  section.contact .spacer {
+    margin-bottom: 10px;
+}
+
+section.contact .spacer {
     background-color: black;
-    margin: 30px 0 12px 0; }
-  section.contact .container {
-    margin: 75px auto; }
-  section.contact form {
-    margin-top: 50px; }
-  section.contact input, section.contact textarea {
+    margin: 30px 0 12px 0;
+}
+
+section.contact .container {
+    margin: 75px auto;
+}
+
+section.contact form {
+    margin-top: 50px;
+}
+
+section.contact input, section.contact textarea {
     display: block;
     text-align: center;
     margin: 0 auto 10px auto;
     border: 2px solid gray;
-    width: 100%; }
-  section.contact input[type='submit'] {
+    width: 100%;
+}
+
+section.contact input[type='submit'] {
     background-color: white;
     font-weight: 600;
     font-size: 20px;
-    letter-spacing: 3px; }
-    section.contact input[type='submit']:hover {
-      background-color: gray;
-      color: white;
-      cursor: pointer; }
+    letter-spacing: 3px;
+}
+
+section.contact input[type='submit']:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
 
 section.contact input {
-  min-height: 55px; }
+    min-height: 55px;
+}
+
 section.contact textarea {
-  min-height: 150px;
-  padding: 15px 0;
-  resize: none; }
+    min-height: 150px;
+    padding: 15px 0;
+    resize: none;
+}
+
+@media (max-width: 480px) {
+
+    section.contact-head h1 {
+        padding-top: 80px;
+        font-size: 45px;
+    }
+}
