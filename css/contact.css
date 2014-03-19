@@ -92,6 +92,10 @@ section.contact textarea {
     resize: none;
 }
 
+section.contact textarea:focus, section.contact input:focus{
+    outline: none;
+}
+
 @media (max-width: 480px) {
 
     section.contact-head h1 {

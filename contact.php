@@ -21,8 +21,6 @@
 			</form>
 		</div>
 	</section>
-
-	<?php include 'includes/sections/general/shoutout.php' ?>
 	<!-- End Pages -->
 
 <?php include 'includes/tail.php' ?>
