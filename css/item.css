@@ -30,7 +30,7 @@ section.item ul {
     .item-images {
         margin-top: 50px;
     }
-    img {
+    section.item img {
         /* max-width: 450px; */
         width: 100%;
     }
