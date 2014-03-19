@@ -182,10 +182,10 @@ section#banner-fader ul.slides li p {
 }
 
 /*======================================================================= */
-/* Page Reveal Theme Overrides */
+/* Home Page Sections */
 /*======================================================================= */
 
-/*------------------------- Page 2 -------------------------*/
+/*------------------------- Process -------------------------*/
 section.process {
     height: 400px;
     background-color: #7ac143;
@@ -232,7 +232,7 @@ section.process p {
     text-align: center;
 }
 
-/*------------------------- Page 3 -------------------------*/
+/*------------------------- Slider -------------------------*/
 section.slider {
     background-image: none;
     background-color: #fff;
@@ -251,7 +251,7 @@ section.slider img {
     margin-bottom: 50px;
 }
 
-/*------------------------- Page 4 -------------------------*/
+/*------------------------- About -------------------------*/
 section.about {
     background-image: url(../img/wood.jpg);
     min-height: 400px;
@@ -285,71 +285,7 @@ section.about {
     padding: 75px 0;
 }
 
-/*------------------------- Page 5 -------------------------*/
-section.testimonials {
-    background-image: none;
-    background-color: #fff;
-    min-height: 400px;
-    height: auto;
-    padding: 100px 0;
-}
-
-section.testimonials h1 {
-    font-family: "Lato", sans-serif;
-    font-size: 26px;
-    line-height: 29px;
-    font-weight: 700;
-    padding: 0;
-    margin: 0;
-    color: #56584B;
-    text-align: left;
-}
-
-section.testimonials h2 {
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    line-height: 29px;
-    font-weight: 400;
-    color: #56584B;
-    text-align: left;
-}
-
-section.testimonials blockquote {
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
-    line-height: 22px;
-    font-weight: 300;
-    font-style: italic;
-    color: black;
-    text-align: left;
-    letter-spacing: 1px;
-}
-
-section.testimonials {
-    background-color: white;
-}
-
-section.testimonials img {
-    display: block;
-    margin: 0 auto 25px auto;
-}
-
-section.testimonials #testimonial-slides {
-}
-
-section.testimonials #testimonial-slides li {
-    position: absolute;
-    list-style-type: none;
-    height: 100%;
-    width: 100%;
-    display: none;
-}
-
-section.testimonials #testimonial-slides li:last-child {
-    display: block;
-}
-
-/*------------------------- Page 6 -------------------------*/
+/*------------------------- Shoutout -------------------------*/
 section.shoutout {
     background-color: @shoutout_color;
     min-height: 400px;
@@ -372,7 +308,7 @@ section.shoutout .container h1 {
     margin-bottom: 70px;
 }
 
-/*------------------------- footer.layout-footer -------------------------*/
+/*------------------------- Footer -------------------------*/
 footer.layout-footer {
     background-color: #222222;
     min-height: 60px;
@@ -395,6 +331,7 @@ footer.layout-footer i {
 	}
 }
 
+/*------------------------- Mobile -------------------------*/
 footer.layout-footer div.right {
     text-align: right;
 }
@@ -428,7 +365,6 @@ footer.layout-footer div.right {
 
     
 }
-
 @media (max-width: 767px) {
 
     .divider {
@@ -510,5 +446,60 @@ footer.layout-footer div.right {
     section#banner-fader ul.slides li p {
         margin: 0 50px 0 50px;
         padding: 0;
+    }
+}
+
+/*======================================================================= */
+/* Other Pages */
+/*======================================================================= */
+/*------------------------- General Page Settings -------------------------*/
+section.page-head {
+    font-family: "Lato", sans-serif;
+    min-height: 250px;
+    background-image: url(../img/wood_2.jpg);
+    color: white;
+}
+section.page-head h1 {
+    padding-top: 95px;
+    font-size: 65px;
+    line-height: 45px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+section.page-head p {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 300;
+}
+section.page-head.page, section.content.page {
+    height: auto;
+}
+section.content {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: #555555;
+}
+section.content h1 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+}
+section.content p {
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+section.content .spacer {
+    background-color: black;
+    margin: 30px 0 12px 0;
+}
+section.content .container {
+    margin: 75px auto;
+}
+@media (max-width: 480px) {
+    section.page-head.page h1 {
+        padding-top: 80px;
+        font-size: 45px;
     }
 }

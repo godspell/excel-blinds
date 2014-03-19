@@ -3,7 +3,7 @@
 	<!-- Pages -->
 	<?php include 'includes/sections/contact/contact-head.php' ?>
 
-	<section class="contact page">
+	<section class="content contact page">
 		<div class="container">
 			<h1>Excel Blinds</h1>
 			<p><span class="spacer"></span></p>
