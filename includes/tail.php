@@ -10,5 +10,6 @@
 	<script src="js/script.js"></script>
 	<script src="lib/responsive-menu/js/responsive-menu.js"></script>
 	<script src="lib/responsive-fader/js/responsive-fader.js"></script>
+	<script src="lib/lightbox/js/lightbox-2.6.min.js"></script>
 </body>
 </html>

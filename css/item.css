@@ -4,11 +4,14 @@ section.item {
   color: #555555; }
   section.item.page {
     height: auto; }
-  section.item img {
+  section.item a {
     display: block;
     margin: 50px auto 0 auto; }
-    section.item img:first-child {
+    section.item a:first-child {
       margin-top: 0; }
+  section.item img {
+    display: block;
+    margin: 0 auto; }
     section.item img:hover {
       opacity: 0.9;
       cursor: pointer; }

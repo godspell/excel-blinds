@@ -8,6 +8,7 @@
 	<!-- Stylesheets -->
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="lib/lightbox/css/lightbox.css">
 	<link rel="stylesheet/less" type="text/css" href="css/style.less">
 	<link rel="stylesheet" type="text/css" href="css/products.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
