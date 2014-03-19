@@ -7,9 +7,10 @@
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
 					</div>
 					<div class="col-sm-9">
-						<h1>Michael J. (Toronto, ON)</h1>
+						<h1>Shutters on whole house</h1>
+						<h2>Michael J. (Brampton, ON)</2>
 						<hr>
-							<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis quam, fermentum faucibus volutpat vehicula, aliquam in velit.</blockquote>
+						<blockquote>Ryan was wonderful to work with. He took the time to explain every detail and delivered exactly as promised....</blockquote>
 					</div>
 				</div>
 			</div>
@@ -21,9 +22,10 @@
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
 					</div>
 					<div class="col-sm-9">
-						<h1>Jane Doe (Toronto, ON)</h1>
+						<h1>Shutters on whole house</h1>
+						<h2>Jane Doe (Mississauga, ON)</h2>
 						<hr>
-						<blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis quam, fermentum faucibus volutpat vehicula, aliquam in velit.</blockquote>
+						<blockquote>I have lived in my home for 12 years and it took that long to decide on what window coverings to place in my...</blockquote>
 					</div>
 				</div>
 			</div>
