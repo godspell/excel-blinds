@@ -1,0 +1,61 @@
+section.testimonials-head {
+    min-height: 250px;
+    background-image: url(../img/wood_2.jpg);
+}
+
+section.testimonials-head h1 {
+    padding-top: 95px;
+}
+
+section.page {
+    height: auto;
+}
+
+section.testimonials-head, section.testimonials-page {
+    font-family: "Lato", sans-serif;
+    color: white;
+}
+
+section.testimonials-head h1, section.testimonials-page h1 {
+    font-size: 65px;
+    line-height: 45px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+section.testimonials-head p, section.testimonials-page p {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 300;
+}
+
+section.testimonials-page.page {
+    color: #555555;
+    min-height: 400px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+section.testimonials-page h1 {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+section.testimonials-page p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 200;
+}
+
+section.testimonials-head.page, section.testimonials-page.page {
+    height: auto;
+}
+
+@media (max-width: 480px) {
+
+    section.page-head h1 {
+        font-size: 45px;
+    }
+}

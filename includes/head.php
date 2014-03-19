@@ -13,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="css/products.css">
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
 	<link rel="stylesheet" type="text/css" href="css/item.css">
+	<link rel="stylesheet" type="text/css" href="css/testimonials.css">
 	<!-- Font Icons -->
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 	<title>Excel Blinds</title>
