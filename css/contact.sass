@@ -1,12 +1,12 @@
 section.contact-head
 	min-height: 200px
 	background-image: url(../img/bg2.jpg)
+	color: white
 	h1
-		padding-top: 75px
+		padding-top: 95px
 
 section.contact-head
 	font-family: "Lato", sans-serif
-	color: white
 	h1
 		font-size: 65px
 		line-height: 45px
@@ -16,3 +16,55 @@ section.contact-head
 		font-size: 20px
 		line-height: 27px
 		font-weight: 300
+
+section.contact-head, section.contact
+	&.page
+		height: auto
+
+section.contact
+	text-align: center
+	font-family: "Lato", sans-serif
+	color: #555
+	h1
+		font-size: 40px
+		line-height: 40px
+		font-weight: 300
+	p 
+		font-size: 20px
+		line-height: 20px
+		font-weight: 300
+		margin-bottom: 10px
+	.spacer
+		background-color: #000
+		margin: 30px 0 12px 0
+	.container
+		margin: 75px auto
+	form
+		margin-top: 50px
+	input, textarea
+		display: block
+		text-align: center
+		margin: 0 auto 10px auto
+		border: 2px solid #808080
+		width: 100%
+	input[type='submit']
+		background-color: #fff
+		font-weight: 600
+		font-size: 20px
+		letter-spacing: 3px
+		&:hover
+			background-color: #808080
+			color: #fff
+			cursor: pointer
+
+
+section.contact
+	input
+		min-height: 55px
+	textarea
+		min-height: 150px
+		padding: 15px 0
+		resize: none
+
+
+
