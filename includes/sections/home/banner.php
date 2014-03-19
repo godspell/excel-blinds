@@ -1,6 +1,6 @@
-<section id="fader" class="banner">
+<section id="banner-fader" class="banner fader">
 
-	<ul id="background-images">
+	<ul class="background-images">
 		<li class="slide-1-bg divider"></li>
 		<li class="slide-2-bg divider"></li>
 		<li class="slide-3-bg divider"></li>
@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<ul id="slides">
+				<ul class="slides">
 					<li class="slide-1">
 						<div class="vcenter" style="display: table; height: 400px; #position: relative; overflow: hidden;">
 							<div style=" #position: absolute; #top: 50%;display: table-cell; vertical-align: middle;">

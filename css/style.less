@@ -108,64 +108,64 @@ nav {
 /*======================================================================= */
 
 
-section#fader ul#slides li {
+section#banner-fader ul.slides li {
 	opacity: 0.7;
 	padding: 0;
 	width: 100%;
 	text-align: center;
 }
 
-section#fader ul#slides li > .vcenter {
+section#banner-fader ul.slides li > .vcenter {
 	width: 100%;
 }
 
-section#fader ul#slides li .inner{
+section#banner-fader ul.slides li .inner{
 	padding: 20px;
 }
 
-section#fader ul#slides li.slide-3 .inner{
+section#banner-fader ul.slides li.slide-3 .inner{
 	background-color: #81abaa;
 }
 
-section#fader ul#slides li.slide-2 .inner{
+section#banner-fader ul.slides li.slide-2 .inner{
 	background-color: #6e6f73;
 }
 
-section#fader ul#slides li.slide-1 .inner{
+section#banner-fader ul.slides li.slide-1 .inner{
 	background-color: #16191e;
 }
 
-section#fader ul#background-images li.slide-1-bg {
+section#banner-fader ul.background-images li.slide-1-bg {
 	background-image: url(../img/bg1.jpg);
 }
 
-section#fader ul#background-images li.slide-2-bg {
+section#banner-fader ul.background-images li.slide-2-bg {
 	background-image: url(../img/bg2.jpg);
 }
 
 
-section#fader ul#background-images li.slide-3-bg {
+section#banner-fader ul.background-images li.slide-3-bg {
 	background-image: url(../img/bg3.jpg);
 }
 
-section#fader ul#slides li span.spacer{
+section#banner-fader ul.slides li span.spacer{
 	margin-bottom: 15px;
 }
 
-section#fader ul#slides li h3{
+section#banner-fader ul.slides li h3{
 	font-weight: 700;
 	letter-spacing: 6px;
 	margin-bottom: 15px;
 }
 
-section#fader ul#slides li h1{
+section#banner-fader ul.slides li h1{
 	font-size: 74px;
 	font-weight: 900;
 	letter-spacing: 4px;
 
 }
 
-section#fader ul#slides li p {
+section#banner-fader ul.slides li p {
 	font-size: 16px;
 	letter-spacing: 2px;
 	margin: 0 250px 0 250px;
@@ -287,11 +287,12 @@ section.testimonials h1 {
   color: black;
   text-align: left; }
 
-section.testimonials p {
+section.testimonials blockquote {
 	font-family: "Lato", sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 22px;
 	font-weight: 300;
+	font-style: italic;
 	color: black;
 	text-align: left; 
 	letter-spacing: 1px;
@@ -306,6 +307,22 @@ section.testimonials img {
 
 section.testimonials {
   padding: 100px 0; 
+}
+
+section.testimonials #testimonial-slides {
+
+}
+
+section.testimonials #testimonial-slides li {
+	position: absolute;
+	list-style-type: none;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+section.testimonials #testimonial-slides li:last-child {
+	display: block;
 }
 
 /*------------------------- Page 6 -------------------------*/
@@ -359,29 +376,29 @@ footer div.right {
 }
 
 @media (max-width: 480px) and (max-height:320px) {
-	section#fader ul#slides li h1{
+	section#banner-fader ul.slides li h1{
 		display: none;
 	}
 
-	section#fader ul#slides li h3{
+	section#banner-fader ul.slides li h3{
 		display: none;
 	}
 
-	section#fader ul#slides li button{
+	section#banner-fader ul.slides li button{
 		display: none;
 	}
 
-	section#fader ul#slides li .inner{
+	section#banner-fader ul.slides li .inner{
 		padding: 0 !important;
 	}
 }
 
 @media (max-width: 480px) and (max-height:700px){
-	section#fader ul#slides li h1{
+	section#banner-fader ul.slides li h1{
 		display: none;
 	}
 
-	section#fader ul#slides li .inner{
+	section#banner-fader ul.slides li .inner{
 		padding: 10px;
 	}
 }
@@ -422,31 +439,34 @@ footer div.right {
 		margin-top: 0;
 	}
 
-	section#fader ul#slides li span.spacer{
+	section#banner-fader ul.slides li span.spacer{
 		padding: 0;
 		margin: 0;
 	}
 
-	section#fader ul#slides li h3{
+	section#banner-fader ul.slides li h3{
 		font-size: 16px;
 		margin: 0;
 		margin-bottom:5px;
 	}
 
-	section#fader ul#slides li h1{
+	section#banner-fader ul.slides li h1{
 		font-size: 44px;
 		padding: 0;
 		margin: 0;
 	}
 
-	section#fader ul#slides li .inner{
+	section#banner-fader ul.slides li .inner{
 		padding: 20px;
 	}
 
-	section#fader ul#slides li p {
+	section#banner-fader ul.slides li p {
 		margin: 0 10px;
 	}
 	
+	section.testimonials {
+		padding-top: 40px;
+	}
 
 	section.testimonials h1, section.testimonials p {
 		text-align: center; 
@@ -455,12 +475,16 @@ footer div.right {
 	section.testimonials p {
 		margin: 10px 5% 0 5%; 
 	} 
+
+	section.testimonials #testimonial-slides {
+		min-height: 400px;
+	}
 }
 
 @media (min-width: 768px ) and (max-width: 992px) {
 
 
-	section#fader ul#slides li p {
+	section#banner-fader ul.slides li p {
 		margin: 0 50px 0 50px;
 		padding: 0;
 	}

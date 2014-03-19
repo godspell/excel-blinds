@@ -1,7 +1,5 @@
 $(function(){
 
-	$("#fader").css('height', $(window).height());
-
 	//smooth scrolling
 	$("html").niceScroll();
 
@@ -14,22 +12,27 @@ $(function(){
 		
 	}
 
+	$("#banner-fader").css('height', $(window).height());
+
 	$( window ).resize(function() {
-		$("#fader").css('height', $(window).height());
+		$("#banner-fader").css('height', $(window).height());
 		//center banner text
-		$("#fader ul#slides li").each(function(index, el){
+		$("#banner-fader ul#slides li").each(function(index, el){
 			valign($(this));
 		});
 	});
 
 	//center banner text
-	$("#fader ul#slides li").each(function(index, el){
+	$("#banner-fader ul.slides li").each(function(index, el){
 		valign($(this));
 	});
 
 });
 
 window.onload = function(){
-	var fader = new Fader('#slides li', '#background-images li', 15000);
+	var fader = new Fader('#banner-fader ul.slides li', '#banner-fader ul.background-images li', 2000);
 	fader.start();
+
+	var testimonials_fader = new Fader('#testimonial-slides li', null, 5000);
+	testimonials_fader.start();
 };
