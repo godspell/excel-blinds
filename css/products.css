@@ -1,15 +1,15 @@
 section.products-head {
-  min-height: 200px;
-  background-image: url(../img/bg2.jpg); }
+  height: 250px;
+  background-image: url(../img/wood_2.jpg); }
   section.products-head h1 {
-    padding-top: 75px; }
+    padding-top: 90px; }
 
 section.products-head, section.products {
   font-family: "Lato", sans-serif;
   color: white; }
   section.products-head h1, section.products h1 {
     font-size: 65px;
-    line-height: 45px;
+    line-height: 60px;
     font-weight: 300;
     margin-bottom: 5px; }
   section.products-head p, section.products p {
@@ -40,7 +40,7 @@ section.products {
       cursor: pointer; }
 
 section.products-head.page, section.products.page {
-  height: auto; }
+ }
 
 /* Blue section */
 section.products-info {
@@ -68,3 +68,15 @@ section.products-info .container h1 {
 /* Spacer */
 section.products .spacer {
   background-color: #555555; }
+
+  @media (max-width: 480px) {
+
+    section.products-head h1 {
+        padding-top: 80px;
+       font-size: 45px;
+    }
+  }
+
+@media (max-width: 767px) {
+    
+}
