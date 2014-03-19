@@ -1,3 +1,7 @@
 section.testimonials.content {
-    text-align: left;
+	text-align: left;
+}
+section.testimonials.content .container {
+	margin-top: 0;
+	margin-bottom: 0;
 }

@@ -184,52 +184,36 @@ section#banner-fader ul.slides li p {
 /*======================================================================= */
 /* Home Page Sections */
 /*======================================================================= */
-
 /*------------------------- Process -------------------------*/
 section.process {
     height: 400px;
     background-color: #7ac143;
     color: #fff;
-}
-
-section.process {
     padding: 0 10px 50px 10px;
+    img {
+        display: block;
+        margin: 25px auto 30px auto;
+    }
+    h1, h2, p {
+        font-family: "Lato", sans-serif; 
+        color: white;
+        text-align: center; 
+    }
 }
-
-section.process h1, section.process h2, section.process p {
-    text-align: center;
-}
-
-section.process img {
-    display: block;
-    margin: 25px auto 30px auto;
-}
-
 section.process h1 {
-    font-family: "Lato", sans-serif;
     font-size: 20px;
     line-height: 25px;
     font-weight: 400;
-    color: white;
-    text-align: center;
 }
-
 section.process h2 {
-    font-family: "Lato", sans-serif;
     font-size: 25px;
     line-height: 30px;
     font-weight: 700;
-    color: white;
-    text-align: center;
 }
-
 section.process p {
-    font-family: "Lato", sans-serif;
     font-size: 16px;
     line-height: 19px;
     font-weight: 300;
-    color: white;
-    text-align: center;
 }
 
 /*------------------------- Slider -------------------------*/
@@ -241,7 +225,6 @@ section.slider {
 }
 
 /* Temporary Slider */
-
 section.slider .row {
     margin-top: 80px;
 }
@@ -256,33 +239,72 @@ section.about {
     background-image: url(../img/wood.jpg);
     min-height: 400px;
     height: auto;
+    padding: 75px 0;
+    h1, p{
+        font-family: "Lato", sans-serif;  
+        color: white;
+        text-align: left; 
+        margin-bottom: 20px;
+    }
 }
-
 section.about h1 {
-    font-family: "Lato", sans-serif;
     font-size: 45px;
     line-height: 50px;
     font-weight: 400;
-    color: white;
-    text-align: left;
 }
-
 section.about p {
-    font-family: "Lato", sans-serif;
     font-size: 18px;
     line-height: 22px;
     font-weight: 300;
-    color: white;
-    text-align: left;
     letter-spacing: 1px;
 }
 
-section.about h1, section.about p {
-    margin-bottom: 20px;
+/*------------------------- Testimonials -------------------------*/
+section.testimonials {
+    background-image: none;
+    background-color: #fff;
+    min-height: 400px;
+    height: auto;
+    padding: 100px 0;
+    h1, h2, blockquote {
+        font-family: "Lato", sans-serif;
+        color: #56584B;
+        text-align: left;
+    }
+    img {
+        display: block;
+        margin: 0 auto 25px auto;
+    }
 }
-
-section.about {
-    padding: 75px 0;
+section.testimonials h1 {
+    font-size: 26px;
+    line-height: 29px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+section.testimonials h2 {
+    font-size: 20px;
+    line-height: 29px;
+    font-weight: 400;
+}
+section.testimonials blockquote {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 300;
+    font-style: italic;
+    color: black;
+    letter-spacing: 1px;
+}
+section.testimonials #testimonial-slides li {
+    position: absolute;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+section.testimonials #testimonial-slides li:last-child {
+    display: block;
 }
 
 /*------------------------- Shoutout -------------------------*/
@@ -292,12 +314,10 @@ section.shoutout {
     height: auto;
     color: #fff;
     text-align: center;
+    .container {
+        padding: 100px 0;
+    }
 }
-
-section.shoutout .container {
-    padding: 100px 0;
-}
-
 section.shoutout .container h1 {
     font-family: "Lato", sans-serif;
     font-size: 45px;
@@ -315,40 +335,32 @@ footer.layout-footer {
     height: auto;
     color: #B0B0B0;
 }
-
-footer.layout-footer p {
-    font-size: 16px;
-    line-height: 20px;
-    padding-top: 20px;
-}
-
-footer.layout-footer i {
-    padding-top: 25px;
-    margin-right: 15px;
-    &:hover{
-		color:#fff;
-    cursor: pointer;
-	}
+footer.layout-footer {
+    p {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 20px;
+    }
+    i {
+        padding-top: 25px;
+        margin-right: 15px;
+        &:hover{
+            color:#fff;
+            cursor: pointer;
+        }
+    }
+    div.right {
+        text-align: right;
+    }
 }
 
 /*------------------------- Mobile -------------------------*/
-footer.layout-footer div.right {
-    text-align: right;
-}
-
 @media (max-width: 480px) and (max-height:320px) {
     section#banner-fader ul.slides li h1 {
-        display: none;
+        h1, h3, button {
+            display: none;
+        }
     }
-
-    section#banner-fader ul.slides li h3 {
-        display: none;
-    }
-
-    section#banner-fader ul.slides li button {
-        display: none;
-    }
-
     section#banner-fader ul.slides li .inner {
         padding: 0 !important;
     }
@@ -362,9 +374,8 @@ footer.layout-footer div.right {
     section#banner-fader ul.slides li .inner {
         padding: 10px;
     }
-
-    
 }
+
 @media (max-width: 767px) {
 
     .divider {
