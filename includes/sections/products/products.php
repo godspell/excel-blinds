@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<img src="img/product.jpg">
-				<h1>Insulating Cellular Blinds</h1>
+				<h1>Shutters</h1>
 				<p><span class="spacer"></span></p>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis quam, fermentum faucibus volutpat vehicula, aliquam in velit.
@@ -11,7 +11,7 @@
 			</div>
 			<div class="col-sm-4">
 				<img src="img/product.jpg">
-				<h1>Vertical Blinds</h1>
+				<h1>Solar Shades</h1>
 				<p><span class="spacer"></span></p>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis quam, fermentum faucibus volutpat vehicula, aliquam in velit.
@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-sm-4">
 				<img src="img/product.jpg">
-				<h1>Wooden Blinds</h1>
+				<h1>HoneyComb</h1>
 				<p><span class="spacer"></span></p>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis quam, fermentum faucibus volutpat vehicula, aliquam in velit.
@@ -29,7 +29,7 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<img src="img/product.jpg">
-				<h1>Sheer Horizontal Shadings</h1>
+				<h1>Roman Blinds</h1>
 				<p><span class="spacer"></span></p>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis quam, fermentum faucibus volutpat vehicula, aliquam in velit.
@@ -37,7 +37,7 @@
 			</div>
 			<div class="col-sm-4">
 				<img src="img/product.jpg">
-				<h1>Horizontal Blinds</h1>
+				<h1>2" Fauxwood</h1>
 				<p><span class="spacer"></span></p>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis quam, fermentum faucibus volutpat vehicula, aliquam in velit.
@@ -45,7 +45,7 @@
 			</div>
 			<div class="col-sm-4">
 				<img src="img/product.jpg">
-				<h1>Woven Wood Shades</h1>
+				<h1>Silhouette</h1>
 				<p><span class="spacer"></span></p>
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras felis quam, fermentum faucibus volutpat vehicula, aliquam in velit.
