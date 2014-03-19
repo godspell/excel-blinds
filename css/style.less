@@ -2,6 +2,9 @@
 @import url("/excel-blinds/lib/page-reveal-theme/css/style.css");
 @import url("/excel-blinds/lib/responsive-fader/css/style.css");
 
+/* Variables */
+@shoutout_color: #24cddc;
+
 body {
 	margin: 0;
 	padding: 0;
@@ -307,16 +310,11 @@ section.testimonials {
 
 /*------------------------- Page 6 -------------------------*/
 section.shoutout{
-	background-color: #24cddc;
+	background-color: @shoutout_color;
 	min-height: 400px;
 	height: auto;
 	color: #fff;
 	text-align: center;
-}
-
-section.shoutout {
-  background-color: #24cddc; 
-
 }
 
 section.shoutout .container {
