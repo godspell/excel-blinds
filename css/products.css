@@ -2,6 +2,9 @@ section.products a {
     text-decoration: none;
     color: #555;
 }
+section.products p.description {
+    line-height: 1.2em;
+}
 section.products .row div {
     margin-bottom: 75px;
 }
@@ -14,10 +17,10 @@ section.products .row img {
     margin-bottom: 20px;
 }
 section.products .row img:hover {
-    opacity: 0.9;
     cursor: pointer;
 }
 /* Spacer */
-section.products .spacer {
-    background-color: #555555;
+section.content .spacer {
+    margin: 0 !important;
+    background-color: #555555 !important;
 }
