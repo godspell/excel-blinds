@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4">
-				<a href="index.php" class="logo"><img alt="logo" src="img/logo.png"></a>
+				<a href="/" class="logo"><img alt="logo" src="img/logo.png"></a>
 				<a href="#" id="responsive-btn">
 					<div class="dashes">
 						<span class="dash"></span>
