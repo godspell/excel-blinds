@@ -18,6 +18,11 @@
 	<link rel="stylesheet" type="text/css" href="css/testimonials.css">
 	<!-- Font Icons -->
 	<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	  <script src="js/html5shiv.js"></script>
+	  <script src="js/respond.js"></script>
+	<![endif]-->
 	<title>Excel Blinds</title>
 </head>
 <body>
