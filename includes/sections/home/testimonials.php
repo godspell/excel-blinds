@@ -11,7 +11,7 @@
 						<h2></2>
 						<hr>
 						<blockquote>
-							<p>Ryan was wonderful to work with. He took the time to explain every detail and delivered exactly as promised....</p>
+							<p>Khalid was wonderful to work with. He took the time to explain every detail and delivered exactly as promised....</p>
 							<footer>Michael J. <cite title="Source Title">(Brampton, ON)</cite></footer>
 						</blockquote>
 					</div>
@@ -28,7 +28,7 @@
 						<h1>Blinds Installation</h1>
 						<hr>
 						<blockquote>
-							<p>Ryan was wonderful to work with. He took the time to explain every detail and delivered exactly as promised....</p>
+							<p>Khalid was wonderful to work with. He took the time to explain every detail and delivered exactly as promised....</p>
 							<footer>Jane Doe <cite title="Source Title">(Mississauga, ON)</cite></footer>
 						</blockquote>
 					</div>

@@ -14,8 +14,8 @@
 				</p>
 			</div>
 			<div class="col-sm-6 item-images">
-				<a href="img/slider1.png" data-lightbox="product-image" ><img src="img/slider1.png" ></a>
-				<a href="img/slider2.png" data-lightbox="product-image" ><img src="img/slider2.png" ></a>
+				<a href="img/product-images/solar-2-open.jpg" data-lightbox="product-image" ><img src="img/product-images/scaled/solar-2-open.jpg"></a>
+				<a href="img/product-images/solar-3-closed.jpg" data-lightbox="product-image" ><img src="img/product-images/scaled/solar-3-closed.jpg"></a>
 			</div>
 		</div>
 	</div>

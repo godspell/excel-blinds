@@ -2,18 +2,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-4">
-				<a href="item.php?item=shutters">
-					<img src="img/products/shutters.jpg">
-					<h1>Shutters</h1>
+				<a href="item.php?item=silhouette">
+					<img src="img/silhouette.jpg">
+					<h1>Silhouette</h1>
 					<p><span class="spacer"></span></p>
 					<p class="description">
-						Shutters are available in both wood and vinyl selections.
+						By far the most elegant of them all. Considered by many as the “Mercedes” of the window covering world.
 					</p>
 				</a>
 			</div>
 			<div class="col-sm-4">
 				<a href="item.php?item=solarshades">
-					<img src="img/products/solar-shades.jpg">
+					<img src="img/product-previews/solar-shades.jpg">
 					<h1>Solar Shades</h1>
 					<p><span class="spacer"></span></p>
 					<p class="description">
@@ -22,12 +22,12 @@
 				</a>
 			</div>
 			<div class="col-sm-4">
-				<a href="item.php?item=honeycomb">
-					<img src="img/products/honeycomb.jpg">
-					<h1>HoneyComb</h1>
+				<a href="item.php?item=shutters">
+					<img src="img/product-previews/shutters.jpg">
+					<h1>Shutters</h1>
 					<p><span class="spacer"></span></p>
 					<p class="description">
-						Honeycomb blinds (sometimes called cellular blinds) are an energy efficient blind. 
+						Shutters are available in both wood and vinyl selections.
 					</p>
 				</a>
 			</div>
@@ -35,7 +35,7 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<a href="item.php?item=romanblinds">
-					<img src="img/products/roman-blinds.jpg">
+					<img src="img/product-previews/roman-blinds.jpg">
 					<h1>Roman Blinds</h1>
 					<p><span class="spacer"></span></p>
 					<p class="description">
@@ -44,8 +44,18 @@
 				</a>
 			</div>
 			<div class="col-sm-4">
+				<a href="item.php?item=honeycomb">
+					<img src="img/product-previews/honeycomb.jpg">
+					<h1>HoneyComb</h1>
+					<p><span class="spacer"></span></p>
+					<p class="description">
+						Honeycomb blinds (sometimes called cellular blinds) are an energy efficient blind. 
+					</p>
+				</a>
+			</div>
+			<div class="col-sm-4">
 				<a href="item.php?item=fauxwood">
-					<img src="img/product.jpg">
+					<img src="img/fauxwood.jpg">
 					<h1>2" Fauxwood</h1>
 					<p><span class="spacer"></span></p>
 					<p class="description">
@@ -53,16 +63,7 @@
 					</p>
 				</a>
 			</div>
-			<div class="col-sm-4">
-				<a href="item.php?item=silhouette">
-					<img src="img/product.jpg">
-					<h1>Silhouette</h1>
-					<p><span class="spacer"></span></p>
-					<p class="description">
-						By far the most elegant of them all. Considered by many as the “Mercedes” of the window covering world.
-					</p>
-				</a>
-			</div>
+			
 		</div>
 	</div>
 </section>
