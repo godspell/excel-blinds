@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<a href="/" class="logo"><img alt="logo" src="img/logo.png"></a>
-				<a href="#" id="responsive-btn">
+				<a href="#" id="responsive-btn" onclick="return false;">
 					<div class="dashes">
 						<span class="dash"></span>
 						<span class="dash"></span>
