@@ -3,10 +3,10 @@
 		<li>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3">
+<!-- 					<div class="col-sm-3">
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
-					</div>
-					<div class="col-sm-9">
+					</div> -->
+					<div class="col-sm-12">
 						<h1>Shutters on whole house</h1>
 						<h2></2>
 						<hr>
@@ -21,10 +21,10 @@
 		<li>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3">
+<!-- 					<div class="col-sm-3">
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
-					</div>
-					<div class="col-sm-9">
+					</div> -->
+					<div class="col-sm-12">
 						<h1>Blinds Installation</h1>
 						<hr>
 						<blockquote>

@@ -2,9 +2,9 @@
 	<div class="container">
 		<h1>Excel Blinds</h1>
 		<p><span class="spacer"></span></p>
-		<p>Address</p>
-		<p>Phone, Fax</p>
-		<p>Email</p>
+		<p>Address: 80 Glen Shields Avenue, Concord Ontario, L4K 2B0</p>
+		<p>Phone: 647-244-1707</p>
+		<p>Email: ex.blinds@gmail.com</p>
 		<form class="row">
 			<div class="col-sm-8 col-sm-offset-2">
 				<input type="text" name="name" placeholder="NAME" >
