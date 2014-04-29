@@ -22,8 +22,8 @@
 				</ul>
 			</div>
 			<div class="col-sm-6 item-images">
-				<a href="img/slider1.png" data-lightbox="product-image" ><img src="img/slider1.png" ></a>
-				<a href="img/slider2.png" data-lightbox="product-image" ><img src="img/slider2.png" ></a>
+				<a href="img/product-images/Shadow-Magic-3.jpg" data-lightbox="product-image" ><img src="img/product-images/scaled/Shadow-Magic-3.jpg"></a>
+				<a href="img/product-images/Shadow-Magic-4.jpg" data-lightbox="product-image" ><img src="img/product-images/scaled/Shadow-Magic-4.jpg"></a>
 			</div>
 		</div>
 	</div>

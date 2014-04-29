@@ -14,8 +14,8 @@
 				</p>
 			</div>
 			<div class="col-sm-6 item-images">
-				<a href="img/slider1.png" data-lightbox="product-image" ><img src="img/slider1.png" ></a>
-				<a href="img/slider2.png" data-lightbox="product-image" ><img src="img/slider2.png" ></a>
+				<a href="img/product-images/2-inch.jpg" data-lightbox="product-image" ><img src="img/product-images/scaled/2-inch.jpg"></a>
+				<a href="img/product-images/Wood-Blind-8.jpg" data-lightbox="product-image" ><img src="img/product-images/scaled/Wood-Blind-8.jpg"></a>
 			</div>
 		</div>
 	</div>

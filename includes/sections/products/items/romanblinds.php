@@ -23,8 +23,8 @@
 				<hr>
 			</div>
 			<div class="col-sm-6 item-images">
-				<a href="img/slider1.png" data-lightbox="product-image" ><img src="img/slider1.png" ></a>
-				<a href="img/slider2.png" data-lightbox="product-image" ><img src="img/slider2.png" ></a>
+				<a href="img/product-images/Roman-3.jpg" data-lightbox="product-image" ><img src="img/product-images/scaled/Roman-3.jpg"></a>
+				<a href="img/product-images/Roman-2.jpg" data-lightbox="product-image" ><img src="img/product-images/scaled/Roman-2.jpg"></a>
 			</div>
 		</div>
 	</div>
