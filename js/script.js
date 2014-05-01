@@ -30,7 +30,7 @@ $(function(){
 });
 
 window.onload = function(){
-	var fader = new Fader('#banner-fader ul.slides li', '#banner-fader ul.background-images li', 2000);
+	var fader = new Fader('#banner-fader ul.slides li', '#banner-fader ul.background-images li', 10000);
 	fader.start();
 
 	var testimonials_fader = new Fader('#testimonial-slides li', null, 5000);

@@ -18,7 +18,7 @@
 					<h1>Step 2.</h1>
 					<h2>Choose your Blinds</h2>
 					<p>
-						Select your favorite sets of blinds and we will provide estimates for all of them and you are free to choose the one that best suits your budget.
+						Our design consultant will provide you with window treatment solutions customized to your needs.
 					</p>
 				</div>
 				<div class="card col-sm-4">
