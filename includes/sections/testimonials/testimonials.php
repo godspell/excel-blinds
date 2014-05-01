@@ -8,7 +8,7 @@
 					</a> -->
 					<div class="media-body">
 						<blockquote>
-							Our experience in dealing with Excel Blinds was exceptional. They helped us choose the right fit for our window treatment that best suited our home decor. Our home feels warm and welcoming. Thank you Excel for your exceptional service!
+							<b>Our experience in dealing with Excel Blinds was exceptional.</b> They helped us choose the right fit for our window treatment that best suited our home decor. Our home feels warm and welcoming. Thank you Excel for your exceptional service!
 							<cite>Neesa R. - Oakville</cite>
 						</blockquote>
 						<hr>
@@ -26,7 +26,7 @@
 					<div class="media-body">
 						<!-- <h4 class="media-heading">Emily P. - Toronto</h4> -->
 						<blockquote>
-							I contacted the Excel team to get my rental Condo furnished with blinds in time before my tenants moved in. The sales consultant came in short notice, got the windows measured and helped me pick the window coverings. To my amazement, within only a week, the blinds were ready install! After the installation, both the tenants and I were extremely satisfied with the service. Thank you Excel for helping me in such short notice!
+							I contacted the Excel team to get my rental Condo furnished with blinds in time before my tenants moved in. The sales consultant came in short notice, got the windows measured and helped me pick the window coverings. To my amazement, <b>within only a week, the blinds were ready install!</b> After the installation, both the tenants and I were extremely satisfied with the service. Thank you Excel for helping me in such short notice!
 							<cite>Emily P. - Toronto</cite> 
 						</blockquote>
 						<hr>
@@ -44,7 +44,7 @@
 					<div class="media-body">
 						<!-- <h4 class="media-heading">Tom D. - Kleinburg </h4> -->
 						<blockquote>
-							I was very pleased with the Excel Team in helping me choose our window coverings. I found the sales consultant to be very honest and informative. Excel will not sell you the most expensive products if it’s not right for you.
+							I was very pleased with the Excel Team in helping me choose our window coverings. I found the sales consultant to be very honest and informative. <b>Excel will not sell you the most expensive products if it’s not right for you.</b>
 							<cite>Tom D. - Kleinburg</cite>
 						</blockquote>
 						<hr>
@@ -62,7 +62,7 @@
 					<div class="media-body">
 						<!-- <h4 class="media-heading">Ryan P. - Toronto</h4> -->
 						<blockquote>
-							Our family room was extremely cold during the winter season and due to the cold air, our gas bill was unusually high. The Excel team solved our problem by providing us with energy efficient Honeycomb blinds. Our room is much warmer and our gas bill is noticeably lower. Now we can comfortably enjoy entertainment without getting cold feet! Thank you Excel for your great job!
+							Our family room was extremely cold during the winter season and due to the cold air, our gas bill was unusually high. The Excel team solved our problem by providing us with energy efficient Honeycomb blinds. <b>Our room is much warmer and our gas bill is noticeably lower.</b> Now we can comfortably enjoy entertainment without getting cold feet! Thank you Excel for your great job!
 							<cite>Ryan P. - Toronto</cite>
 						</blockquote>
 						<hr>
@@ -80,7 +80,7 @@
 					<div class="media-body">
 						<!-- <h4 class="media-heading">Sonia N. - Brampton</h4> -->
 						<blockquote>
-							I am extremely satisfied with the quality of the products and the entire shopping experience. The Solar Blinds look exactly as I envisioned. Will definitely refer friends and family
+							I am extremely satisfied with the quality of the products and the entire shopping experience. <b>The Solar Blinds look exactly as I envisioned.</b> Will definitely refer friends and family
 							<cite>Sonia N. - Brampton</cite>
 						</blockquote>
 					</div>
