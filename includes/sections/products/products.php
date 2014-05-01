@@ -36,7 +36,7 @@
 			<div class="col-sm-4">
 				<a href="item.php?item=romanblinds">
 					<img src="img/product-previews/roman-blinds.jpg">
-					<h1>Roman Blinds</h1>
+					<h1>Roman Shades</h1>
 					<p><span class="spacer"></span></p>
 					<p class="description">
 						These beautiful blinds convey an elegant and sophisticated look not matched with other blinds.
