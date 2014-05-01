@@ -5,3 +5,62 @@ section.testimonials.content .container {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+section.testimonials.content blockquote {
+	font-size: 18px;
+	font-style: italic;
+	margin: 0.25em 0;
+	padding: 0.35em 40px;
+	line-height: 1.45;
+	position: relative;
+}
+section.testimonials.content blockquote:before {
+	display: block;
+	padding-left: 25px;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	color: #7a7a7a;
+}
+section.testimonials.content blockquote cite {
+	color: #333333;
+	font-size: 15px;
+	display: block;
+	margin-top: 5px;
+}
+
+section.testimonials.content blockquote cite:before {
+	content: "\2014 \2009";
+}
+
+/* Curly Settings */
+/*section.testimonials.content blockquote {
+	font-size: 18px;
+	font-style: italic;
+	margin: 0.25em 0;
+	padding: 0.35em 50px;
+	line-height: 1.45;
+	position: relative;
+}
+section.testimonials.content blockquote:before {
+	font-family: Georgia, serif;
+	display: block;
+	padding-left: 20px;
+	content: "\201C";
+	font-size: 80px;
+	position: absolute;
+	left: -20px;
+	top: -20px;
+	color: #7a7a7a;
+}
+section.testimonials.content blockquote cite {
+	color: #333333;
+	font-size: 15px;
+	display: block;
+	margin-top: 5px;
+}
+
+section.testimonials.content blockquote cite:before {
+	content: "\2014 \2009";
+}*/

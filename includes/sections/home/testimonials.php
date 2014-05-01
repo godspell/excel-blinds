@@ -11,7 +11,7 @@
 						<hr>
 						<blockquote>
 							<p>
-								Our experience in dealing with Excel Blinds was exceptional. They helped us choose the right fit for our window...
+								dealing with Excel Blinds was exceptional.
 							</p>
 							<footer>Neesa R. <cite title="Source Title">(Oakville, ON)</cite></footer>
 						</blockquote>
@@ -30,7 +30,7 @@
 						<hr>
 						<blockquote>
 							<p>
-								I contacted the Excel team to get my rental Condo furnished with blinds in time before my tenants moved in...
+								within only a week, the blinds were ready install!
 							</p>
 							<footer>Emily P.<cite title="Source Title">(Toronto, ON)</cite></footer>
 						</blockquote>
@@ -49,7 +49,7 @@
 						<hr>
 						<blockquote>
 							<p>
-								I was very pleased with the Excel Team in helping me choose our window coverings. I found the sales consultant...
+								Excel will not sell you the most expensive products if it’s not right for you.
 							</p>
 							<footer>Tom D.<cite title="Source Title">(Kleinburg, ON)</cite></footer>
 						</blockquote>
@@ -68,7 +68,7 @@
 						<hr>
 						<blockquote>
 							<p>
-								Our family room was extremely cold during the winter season and due to the cold air, our gas bill was unusually high...
+								Our room is much warmer and our gas bill is noticeably lower!
 							</p>
 							<footer>Ryan P.<cite title="Source Title">(Toronto, ON)</cite></footer>
 						</blockquote>
@@ -87,7 +87,7 @@
 						<hr>
 						<blockquote>
 							<p>
-								I am extremely satisfied with the quality of the products and the entire shopping experience. The Solar look exactly...
+								The Solar Blinds look exactly as I envisioned.
 							</p>
 							<footer>Sonia N.<cite title="Source Title">(Brampton, ON)</cite></footer>
 						</blockquote>
