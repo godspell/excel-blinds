@@ -276,25 +276,39 @@ section.testimonials {
         margin: 0 auto 25px auto;
     }
 }
-section.testimonials h1 {
-    font-size: 26px;
-    line-height: 29px;
-    font-weight: 700;
-    padding: 0;
-    margin: 0;
-}
-section.testimonials h2 {
-    font-size: 20px;
-    line-height: 29px;
-    font-weight: 400;
-}
+// section.testimonials h1 {
+//     font-size: 26px;
+//     line-height: 29px;
+//     font-weight: 700;
+//     padding: 0;
+//     margin: 0;
+// }
+// section.testimonials h2 {
+//     font-size: 20px;
+//     line-height: 29px;
+//     font-weight: 400;
+// }
 section.testimonials blockquote {
-    font-size: 20px;
+    font-size: 45px;
     line-height: 22px;
     font-weight: 300;
     font-style: italic;
     color: black;
     letter-spacing: 1px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+}
+section.testimonials blockquote:before {
+    display: block;
+    padding-left: 25px;
+    content: "\201C";
+    font-size: 100px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
 }
 section.testimonials #testimonial-slides li {
     position: absolute;
@@ -306,6 +320,16 @@ section.testimonials #testimonial-slides li {
 section.testimonials #testimonial-slides li:last-child {
     display: block;
 }
+
+// @media (max-width: 480px) {
+//     section.testimonials blockquote {
+//         font-size: 30px !important;
+//     }
+//     section.testimonials #testimonial-slides {
+//         min-height: 0;
+//     }
+// }
+
 
 /*------------------------- Shoutout -------------------------*/
 section.shoutout {
@@ -377,6 +401,10 @@ footer.layout-footer {
 }
 
 @media (max-width: 767px) {
+
+    section.testimonials blockquote {
+        font-size: 30px;
+    }
 
     .divider {
         background-size: auto auto;
@@ -453,6 +481,9 @@ footer.layout-footer {
 
 @media (min-width: 768px ) and (max-width: 992px) {
 
+    section.testimonials blockquote {
+        font-size: 40px;
+    }
 
     section#banner-fader ul.slides li p {
         margin: 0 50px 0 50px;

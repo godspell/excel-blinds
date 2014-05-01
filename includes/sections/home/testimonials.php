@@ -7,8 +7,6 @@
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
 					</div> -->
 					<div class="col-sm-12">
-						<h1>Blinds Installation</h1>
-						<hr>
 						<blockquote>
 							<p>
 								dealing with Excel Blinds was exceptional.
@@ -26,8 +24,6 @@
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
 					</div> -->
 					<div class="col-sm-12">
-						<h1>Condo Window Coverings</h1>
-						<hr>
 						<blockquote>
 							<p>
 								within only a week, the blinds were ready install!
@@ -45,8 +41,6 @@
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
 					</div> -->
 					<div class="col-sm-12">
-						<h1>Window Coverings</h1>
-						<hr>
 						<blockquote>
 							<p>
 								Excel will not sell you the most expensive products if it’s not right for you.
@@ -64,8 +58,6 @@
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
 					</div> -->
 					<div class="col-sm-12">
-						<h1>Honeycomb Blinds</h1>
-						<hr>
 						<blockquote>
 							<p>
 								Our room is much warmer and our gas bill is noticeably lower!
@@ -83,8 +75,6 @@
 						<img src="http://excelblinds.rocketfuse.com/img/about.png" alt="..." class="img-thumbnail">
 					</div> -->
 					<div class="col-sm-12">
-						<h1>Solar Shades</h1>
-						<hr>
 						<blockquote>
 							<p>
 								The Solar Blinds look exactly as I envisioned.
