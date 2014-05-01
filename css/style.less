@@ -308,7 +308,7 @@ section.testimonials blockquote:before {
     position: absolute;
     left: -20px;
     top: -20px;
-    color: #7a7a7a;
+    color: #767676;
 }
 section.testimonials #testimonial-slides li {
     position: absolute;
@@ -319,6 +319,15 @@ section.testimonials #testimonial-slides li {
 }
 section.testimonials #testimonial-slides li:last-child {
     display: block;
+}
+
+@media (max-width: 480px) {
+    section.testimonials {
+        padding: 50px 0;
+    }
+    section.testimonials blockquote{
+        font-size: 25px !important; 
+    }
 }
 
 
@@ -395,6 +404,10 @@ footer.layout-footer {
 
     section.testimonials blockquote {
         font-size: 30px;
+    }
+
+    section.testimonials {
+        padding: 100px 0;
     }
 
     .divider {
