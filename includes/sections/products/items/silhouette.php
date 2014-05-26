@@ -1,7 +1,6 @@
 <section class="products-head page-head page divider">
 	<div class="container">
 		<h1>Silhouette</h1>
-		<p>Item sub text.</p>
 	</div>
 </section>
 
